@@ -1,0 +1,6 @@
+.main-container {
+    background: red;
+    display: grid;
+    grid-template-rows: [row1-start] 10% [row1-end row2start] auto [row2end];
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
