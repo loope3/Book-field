@@ -1,0 +1,17 @@
+.user-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #8EC8E9;
+}
+
+.user-buttons-container button {
+    float:right;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+
+
+

@@ -1,8 +1,8 @@
 .navigation {
-    background: brown;
-    grid-row-start: row1-start;
-    grid-row-end: row1-end;
     grid-column-start: 1;
     grid-column-end: 5;
+
+    display:grid;
+    grid-template-columns: [column1-start] 70% [column1-end column2-start] 30% [column2-end];
   }
   

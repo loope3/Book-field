@@ -1,0 +1,31 @@
+.search-container {
+    grid-column-start: column1-start;
+    grid-column-end: column1-end;
+    background-color: #8EC8E9;
+    display: grid;
+    align-items: center;
+}
+
+.search-container form input{
+    width: 50%;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.search-container form input:focus{
+    outline: none;
+}
+
+.search-container form input:hover{
+    background: #F9F1F1;
+}
+
+.search-container form button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+    border-style: none;
+
+}
